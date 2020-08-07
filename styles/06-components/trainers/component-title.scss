@@ -1,0 +1,25 @@
+@import "../../01-settings/settings-colors.scss";
+
+.c-trainers__title {
+    background-color: $secondary-600;
+    text-align: center;
+    &__wrapper {
+        margin-top: 64px;
+        .h1-like {
+            color: white;
+        }
+
+        &__text {
+            color: white;
+            margin: 24px 0 0 0;
+        }
+
+        @include for-tablet-portrait-up {
+            max-width: 80%;
+        }
+
+        @include for-tablet-landscape-up {
+            max-width: 850px;
+        }
+    }
+}

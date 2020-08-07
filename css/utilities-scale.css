@@ -1,0 +1,18 @@
+.u-scale--1 {
+  transition: transform 0.5s ease-out;
+  transform: scale(1);
+}
+
+.u-scale--1:hover {
+  transform: scale(1.1);
+}
+
+.u-scale--5 {
+  transition: transform 0.5s ease-out;
+  transform: scale(1);
+}
+
+.u-scale--5:hover {
+  transform: scale(1.5);
+}
+/*# sourceMappingURL=utilities-scale.css.map */

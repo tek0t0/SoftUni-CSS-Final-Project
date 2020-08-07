@@ -1,0 +1,11 @@
+@import "../../01-settings/settings-colors.scss";
+
+.c-trainers-main {
+    display: grid;
+    grid-template-rows: 355px max-content max-content 660px;
+    grid-row-gap: 30px;
+
+    @include for-tablet-portrait-up {
+        grid-template-rows: 256px max-content max-content 400px;
+    }
+}

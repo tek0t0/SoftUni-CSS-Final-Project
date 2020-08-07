@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,0BAA0B,CAAC;EACvB,gBAAgB,ECAL,OAAO;CDmBrB;;AAjBI,AAAD,mCAAU,CAAC;EACP,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,WAAW;EAClC,kBAAkB,EAAE,uBAAuB;EAC3C,eAAe,EAAE,IAAI;EACrB,YAAY,EAAE,IAAI;CAUrB;;AAhBA,AAOG,mCAPM,CAON,EAAE;AAPL,mCAAS,CAQN,EAAE,CAAC;EACC,KAAK,ECbH,OAAO;CDcZ;;AAEA,AAAD,0CAAQ,CAAC;EACL,WAAW,EAAE,KAAK;EAClB,YAAY,EAAE,MAAM;CACvB",
+    "sources": [
+        "../styles/06-components/contacts/component-how-to-get-to.scss",
+        "../styles/01-settings/settings-colors.scss"
+    ],
+    "names": [],
+    "file": "component-how-to-get-to.css"
+}

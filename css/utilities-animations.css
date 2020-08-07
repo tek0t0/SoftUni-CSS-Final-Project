@@ -1,0 +1,102 @@
+.u-fade-in {
+  animation: fade-in 1.5s forwards 1 ease-out;
+  opacity: 0;
+}
+
+.u-fade-in--delay-500 {
+  animation-delay: 500ms;
+}
+
+.u-fade-in--delay-1000 {
+  animation-delay: 1000ms;
+}
+
+.u-fade-in--delay-100 {
+  animation-delay: 100ms;
+}
+
+.u-fade-in--delay-200 {
+  animation-delay: 200ms;
+}
+
+.u-fade-in--delay-300 {
+  animation-delay: 300ms;
+}
+
+.u-fade-in--delay-400 {
+  animation-delay: 400ms;
+}
+
+.u-fade-in--delay-500 {
+  animation-delay: 500ms;
+}
+
+.u-fade-in--delay-600 {
+  animation-delay: 600ms;
+}
+
+.u-fade-in--delay-700 {
+  animation-delay: 700ms;
+}
+
+.u-fade-in--delay-800 {
+  animation-delay: 800ms;
+}
+
+.u-fade-in--delay-900 {
+  animation-delay: 900ms;
+}
+
+.u-fade-in--delay-1000 {
+  animation-delay: 1000ms;
+}
+
+.u-fade-in--delay-1100 {
+  animation-delay: 1100ms;
+}
+
+.u-fade-in--delay-1200 {
+  animation-delay: 1200ms;
+}
+
+.u-fade-in--delay-1300 {
+  animation-delay: 1300ms;
+}
+
+.u-fade-in--delay-1400 {
+  animation-delay: 1400ms;
+}
+
+.u-fade-in--delay-1500 {
+  animation-delay: 1500ms;
+}
+
+.u-fade-in--delay-1600 {
+  animation-delay: 1600ms;
+}
+
+.u-fade-in--delay-1700 {
+  animation-delay: 1700ms;
+}
+
+.u-fade-in--delay-1800 {
+  animation-delay: 1800ms;
+}
+
+.u-fade-in--delay-1900 {
+  animation-delay: 1900ms;
+}
+
+.u-fade-in--delay-2000 {
+  animation-delay: 2000ms;
+}
+
+.u-fade-in {
+  animation: fade 1.5s forwards 1 ease-out;
+  opacity: 0;
+}
+
+.u-fade-in--delay-500 {
+  animation-delay: 500ms;
+}
+/*# sourceMappingURL=utilities-animations.css.map */

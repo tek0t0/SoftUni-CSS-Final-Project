@@ -1,0 +1,22 @@
+.centered {
+    text-align: center;
+}
+
+.centered__container {
+    
+    &--50{
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    &--60{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    &--65{
+        width: 65%;
+        margin: 0 auto;
+    }
+}
+

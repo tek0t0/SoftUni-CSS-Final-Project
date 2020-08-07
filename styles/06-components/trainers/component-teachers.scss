@@ -1,0 +1,31 @@
+.c-trainers__teachers__wrapper {
+    &--column-one {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 30px;
+    }
+
+    &--column-two,
+    &--column-three,
+    &--column-four {
+        display: none;
+    }
+}
+
+@include for-tablet-portrait-up {
+    .c-trainers__teachers__wrapper {
+        margin-top: 40px;
+        margin-bottom: 80px;
+        max-width: 1000px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        &--column-one,
+        &--column-two,
+        &--column-three,
+        &--column-four {
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-row-gap: 30px;
+        }
+    }
+}

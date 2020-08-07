@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAA;EACZ,OAAO,EAAE,IAAI;EACb,kBAAkB,EAAE,6BAA6B;CACpD",
+    "sources": [
+        "../styles/06-components/contacts/component-contacts-main.scss"
+    ],
+    "names": [],
+    "file": "component-contacts-main.css"
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../styles/04-elements/elements-links.scss"
+    ],
+    "names": [],
+    "file": "elements-links.css"
+}

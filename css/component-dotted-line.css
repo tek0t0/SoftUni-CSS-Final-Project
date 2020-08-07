@@ -1,0 +1,14 @@
+.c-dotted-line--vertical--secondary-color {
+  margin: 0 32px;
+  border-left: 10px dotted #FFECB3;
+}
+
+.c-dotted-line--horizontal--secondary-color {
+  margin: 32px 0;
+  border-top: 10px dotted #FFECB3;
+}
+
+.u-dotted-line--horizontal--primary-color {
+  border-top: 10px dotted #DFF4F1;
+}
+/*# sourceMappingURL=component-dotted-line.css.map */

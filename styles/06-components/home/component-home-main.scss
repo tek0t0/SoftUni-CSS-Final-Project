@@ -1,0 +1,11 @@
+@import "../../01-settings/settings-colors.scss";
+
+.c-home-main {
+    display: grid;
+    grid-template-rows: 320px 1fr max-content max-content max-content max-content max-content;
+    grid-row-gap: 30px;
+
+    @include for-tablet-portrait-up {
+        grid-template-rows: 320px 112px max-content max-content max-content max-content max-content;
+    }
+}

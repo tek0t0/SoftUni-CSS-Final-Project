@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,yCAAyC,CAAC;EACtC,MAAM,EAAE,MAAM;EACd,WAAW,EAAE,IAAI,CAAC,MAAM,CCAb,OAAO;CDCrB;;AAED,AAAA,2CAA2C,CAAC;EACxC,MAAM,EAAE,MAAM;EACd,UAAU,EAAE,IAAI,CAAC,MAAM,CCLZ,OAAO;CDMrB;;AAED,AAAA,yCAAyC,CAAC;EACtC,UAAU,EAAE,IAAI,CAAC,MAAM,CCbd,OAAO;CDcnB",
+    "sources": [
+        "../styles/06-components/component-dotted-line.scss",
+        "../styles/01-settings/settings-colors.scss"
+    ],
+    "names": [],
+    "file": "component-dotted-line.css"
+}

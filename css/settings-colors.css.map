@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../styles/01-settings/settings-colors.scss"
+    ],
+    "names": [],
+    "file": "settings-colors.css"
+}

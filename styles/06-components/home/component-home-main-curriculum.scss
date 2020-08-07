@@ -1,0 +1,77 @@
+@import "../../01-settings/settings-colors.scss";
+
+.c-main__curriculum {
+    background-color: $secondary-500;
+    color: $grey-700;
+    margin: 30px 0;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 0px 2px rgba(0, 0, 0, 0.14);
+
+    &:before {
+        content: "";
+        display: block;
+        position: relative;
+        top: -5px;
+        margin: 0px;
+        border-top: 10px dotted white;
+    }
+
+    &:after {
+        content: "";
+        display: block;
+        position: relative;
+        top: 6px;
+        margin: 0px;
+        border-top: 10px dotted white;
+    }
+
+    &__wrapper {
+        display: grid;
+
+        @include for-tablet-portrait-up {
+            margin-top: 64px;
+            grid-template-columns: 64px 680px 1fr;
+            &__info {
+                h2 {
+                    margin: 0;
+                }
+            }
+
+            &__selectors {
+                display: flex;
+                flex-direction: column;
+
+                &__label {
+                    color: $grey-700;
+                    img {
+                        position: relative;
+                        top: -40px;
+                        left: 630px;
+                    }
+                }
+            }
+
+            &__pic {
+                width: 50%;
+                justify-self: center;
+                align-self: center;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+
+        @include for-phone-only {
+            grid-template-rows: 64px auto;
+            width: 100%;
+            &__info {
+                display: flex;
+                flex-direction: column;
+            }
+
+            &__pic {
+                display: none;
+            }
+        }
+    }
+}

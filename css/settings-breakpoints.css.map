@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../styles/01-settings/settings-breakpoints.scss"
+    ],
+    "names": [],
+    "file": "settings-breakpoints.css"
+}

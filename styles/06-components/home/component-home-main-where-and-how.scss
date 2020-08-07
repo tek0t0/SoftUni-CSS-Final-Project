@@ -1,0 +1,24 @@
+@import "../../01-settings/settings-colors.scss";
+
+.c-main__where-and-how {
+    display: grid;
+    grid-template-rows: max-content 74px max-content;
+
+    .c-dotted-line--vertical--secondary-color {
+        display: none;
+    }
+
+    @include for-tablet-portrait-up {
+        .c-dotted-line--vertical--secondary-color {
+            display: inline;
+        }
+
+        .c-dotted-line--horizontal--secondary-color {
+            display: none;
+        }
+        display: grid;
+        grid-template-columns: 1fr 74px 1fr;
+        grid-template-rows: auto;
+        margin-bottom: 100px;
+    }
+}

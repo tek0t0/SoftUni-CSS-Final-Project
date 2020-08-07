@@ -1,0 +1,23 @@
+.c-contacts__how-to-get-to {
+  background-color: #FFF8E1;
+}
+
+.c-contacts__how-to-get-to__wrapper {
+  margin-top: 96px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: max-content max-content;
+  grid-column-gap: 33px;
+  grid-row-gap: 48px;
+}
+
+.c-contacts__how-to-get-to__wrapper h2,
+.c-contacts__how-to-get-to__wrapper h3 {
+  color: #41BEAD;
+}
+
+.c-contacts__how-to-get-to__wrapper__title {
+  grid-column: 1 / 4;
+  justify-self: center;
+}
+/*# sourceMappingURL=component-how-to-get-to.css.map */

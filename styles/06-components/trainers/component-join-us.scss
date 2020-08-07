@@ -1,0 +1,50 @@
+@import "../../01-settings/settings-colors.scss";
+
+.c-trainers__join-us {
+    background-color: $blue-300;
+    border-top: 12px solid $blue-200;
+    &__wrapper {
+        width: 100%;
+        display: grid;
+        grid-template-rows: 60px 80px 1fr;
+        grid-row-gap: 24px;
+        margin-top: 48px;
+        justify-items: center;
+
+        &__title {
+            color: white;
+            @include for-tablet-portrait-up {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 44px;
+            }
+        }
+
+        &__text {
+            max-width: 850px;
+            margin: 0;
+            color: white;
+            @include for-tablet-portrait-up {
+                text-align: center;
+            }
+        }
+        &__fields {
+            width: 100%;
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-row-gap: 36px;
+            ::placeholder {
+                color: white;
+                opacity: 1;
+            }
+
+            @include for-tablet-portrait-up {
+                grid-template-rows: 1fr;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-column-gap: 32px;
+                max-width: 800px;
+            }
+        }
+    }
+}

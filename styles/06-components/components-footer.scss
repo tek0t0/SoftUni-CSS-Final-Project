@@ -1,0 +1,162 @@
+@import "../01-settings/settings-colors.scss";
+
+.c-footer {
+    background-color: $grey-700;
+    border-top: 12px solid $grey-500;
+    margin: 0;
+    height: 100%;
+
+    &__wrapper {
+        display: flex;
+       @include for-tablet-portrait-up{
+           height: 312px;
+       }
+        &__img-box {
+            display: none;
+            @include for-tablet-portrait-up {
+                display: inline;
+                position: relative;
+                width: 360px;
+                height: 403px;
+                left: 0;
+                bottom: 90px;
+                
+            }
+        }
+        &__links {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: max-content max-content 120px;
+            grid-template-areas:
+                "column1 column4"
+                "column2 column5"
+                "column3 column3"
+                "column6 column6";
+
+            .column {
+                &--1 {
+                    grid-area: column1;
+                }
+                &--2 {
+                    grid-area: column2;
+                }
+                &--3 {
+                    grid-area: column3;
+                }
+                &--4 {
+                    grid-area: column4;
+                }
+                &--5 {
+                    grid-area: column5;
+                }
+                &--copyrights {
+                    grid-area: column6;
+                }
+            }
+            @include for-tablet-portrait-up {
+                margin-top: 64px;
+                margin-left: 78px;
+                grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+                grid-template-rows: max-content 120px;
+                grid-template-areas:
+                    "column1 column2 column3 column4 column5"
+                    "column1 column2 column3 column4 column6";
+                .column {
+                    &--1 {
+                        grid-area: column1;
+                    }
+                    &--2 {
+                        grid-area: column2;
+                    }
+                    &--3 {
+                        grid-area: column3;
+                    }
+                    &--4 {
+                        grid-area: column4;
+                    }
+                    &--5 {
+                        grid-area: column5;
+                    }
+                    &--copyrights {
+                        grid-area: column6;
+                    }
+                }
+            }
+        }
+    }
+    &__column {
+        &__items {
+            margin: 0;
+            list-style: none;
+            padding: 0;
+
+            &__title {
+                margin: 32px 0 16px 0;
+                font-family: "Lato";
+                color: white;
+                @include for-tablet-portrait-up {
+                    margin: 0;
+                }
+
+                &.hidden-title {
+                    display: none;
+                    @include for-tablet-portrait-up {
+                        display: inline;
+                    }
+                }
+            }
+            &__link {
+                margin: 12px 0;
+                a {
+                    text-decoration: none;
+                    color: $grey-200;
+                    font-family: Lato;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 19px;
+
+                    &:hover {
+                        color: $primary-300;
+                    }
+                }
+            }
+        }
+        &__social {
+            &__box {
+                margin-top: 20px;
+                display: flex;
+                justify-content: space-between;
+                width: 100px;
+                .fab {
+                    color: white;
+                    font-size: 30px;
+
+                    &:hover {
+                        color: $primary-300;
+                    }
+                }
+            }
+        }
+
+        &.column--copyrights {
+            margin-top: 32px;
+            border-top: 1px solid $grey-600;
+            max-width: 335px;
+            p {
+                text-align: center;
+                margin: 32px auto;
+                color: $grey-500;
+                font-family: Lato;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 19px;
+            }
+            @include for-tablet-portrait-up {
+                border: none;
+            }
+        }
+    }
+}

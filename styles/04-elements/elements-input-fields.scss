@@ -1,0 +1,33 @@
+@import "../01-settings/settings-colors.scss";
+
+.e-fields--select {
+    border: none;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 14px;
+    -webkit-appearance: none;
+    min-width: 100%;
+    min-height: 45px;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: $grey-700;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    @include for-phone-only {
+        width: 300px;
+    }
+}
+
+.e-fields--text {
+    border: 1px solid white;
+    border-radius: 6px;
+    background: transparent;
+    padding: 14px;
+}

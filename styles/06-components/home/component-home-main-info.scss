@@ -1,0 +1,63 @@
+@import "../../01-settings/settings-colors.scss";
+
+.c-main__info {
+    display: grid;
+
+    @include for-phone-only {
+        grid-template-rows: max-content 190px;
+
+        &__video {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &__content {
+                display: flex;
+                justify-content: center;
+                width: 300px;
+                height: 190px;
+                background: url("./../assets/images/video__background.svg");
+                background-size: 100% 100%;
+
+                &__playButton {
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    @include for-tablet-portrait-up {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+
+        &__video {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            &__content {
+                display: flex;
+                justify-content: center;
+                min-width: 440px;
+                min-height: 248px;
+                background: url("./../assets/images/video__background.svg");
+                background-size: 100% 100%;
+
+                &__playButton {
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    &__description {
+        @include for-tablet-landscape-up {
+            margin: 0;
+        }
+        p {
+            color: $grey-700;
+        }
+    }
+}

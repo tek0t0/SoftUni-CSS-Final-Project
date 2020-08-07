@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACK,AAAD,WAAI,CAAC;EACD,UAAU,EAAE,uBAAuB;EACnC,SAAS,EAAE,QAAQ;CAKtB;;AAPA,AAIG,WAJA,AAIC,MAAM,CAAC;EACJ,SAAS,EAAE,UAAU;CACxB;;AAGJ,AAAD,WAAI,CAAC;EACD,UAAU,EAAE,uBAAuB;EACnC,SAAS,EAAE,QAAQ;CAKtB;;AAPA,AAIG,WAJA,AAIC,MAAM,CAAC;EACJ,SAAS,EAAE,UAAU;CACxB",
+    "sources": [
+        "../styles/07-utilities/utilities-scale.scss"
+    ],
+    "names": [],
+    "file": "utilities-scale.css"
+}
